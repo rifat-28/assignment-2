@@ -1,5 +1,6 @@
 body {
     font-family: 'Barlow', sans-serif;
+    margin: 0 auto;
 }
 
 /* -----first part----- */
@@ -114,7 +115,7 @@ body {
 
 .last {
     background-color: slategray;
-    height: 400px;
+    height: 440px;
     margin-top: 100px;
 }
 
@@ -157,4 +158,48 @@ hr {
 .w {
     text-decoration: none;
     color: black;
+}
+
+.f {
+    text-decoration: none;
+    color: black;
+}
+
+.febu {
+    text-align: center;
+    margin: 10px;
+}
+
+@media screen and (max-width:576px) {
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+        background-color: antiquewhite;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    .container {
+        grid-template-columns: (2, 1fr);
+        background-color: blueviolet;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .second {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    .second {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .final {
+        grid-template-columns: (1, 1fr);
+    }
 }
