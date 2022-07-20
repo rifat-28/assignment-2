@@ -138,3 +138,23 @@ hr {
     padding-left: 450px;
     padding-top: 40px;
 }
+
+.twt {
+    text-align: center;
+    margin: 10px;
+}
+
+.whts {
+    text-align: center;
+    margin: 10px;
+}
+
+.t {
+    text-decoration: none;
+    color: black;
+}
+
+.w {
+    text-decoration: none;
+    color: black;
+}
