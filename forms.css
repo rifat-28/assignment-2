@@ -60,17 +60,13 @@ body {
 }
 
 .up {
-    background-color: antiquewhite;
+    background-color: rgb(220, 64, 64);
+    color: white;
     width: 150px;
     margin-left: 60px;
     padding: 10px 5px;
     border-radius: 10px;
     margin-top: 20px;
-}
-
-.upp {
-    color: black;
-    text-decoration: none;
 }
 
 .all {
@@ -83,13 +79,17 @@ body {
 }
 
 .blog {
-    background-color: rgb(220, 64, 64);
-    color: white;
+    background-color: antiquewhite;
     width: 150px;
     margin-left: 60px;
     padding: 10px 5px;
     border-radius: 10px;
     margin-bottom: 20px;
+}
+
+.blogg {
+    color: black;
+    text-decoration: none;
 }
 
 /* -----third part----- */
@@ -113,11 +113,6 @@ body {
 .second {
     display: flex;
     gap: 20px;
-}
-
-.icn {
-    display: flex;
-    gap: 60px;
 }
 
 .last {
